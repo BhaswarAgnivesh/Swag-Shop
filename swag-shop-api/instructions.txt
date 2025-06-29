@@ -1,0 +1,22 @@
+did these:
+
+1. nvm --version
+2. node --version
+3. nvm use 24.2.0
+4. npm init (keep pressing enter until type yes and enter)
+5. npm install --save body-parser
+6. npm install --save express mongoose
+7. type in server.js...save it and to run it:
+8. nodemon server.js
+9. before running/using any mogo db in the server.js code
+10. open new cmd tab and type mongod
+11. after running the server.js program, in new cmd tab type mongosh.
+12. there type show dbs to see your databasese.
+13. inn the mongosh tab, type exit to exit.
+
+
+to see database:
+1. mongosh
+2. show dbs
+3. use swag-shop
+4. show collections
