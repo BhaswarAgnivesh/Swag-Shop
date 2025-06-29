@@ -1,0 +1,49 @@
+/* Reset & base */
+body {
+  background-color: #f5f8fb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding-bottom: 40px;
+}
+
+.App-header {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+.App-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+/* Main layout */
+.App-main {
+  padding: 20px;
+}
+
+/* Product spacing */
+.card {
+  border: none;
+}
+
+/* Optional: animation fade-in */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.product-card,
+.wishlist-container {
+  animation: fadeInUp 0.3s ease both;
+}
